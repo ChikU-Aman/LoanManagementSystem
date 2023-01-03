@@ -1,0 +1,47 @@
+{
+    "LoanDetails": [
+        {
+            "ReferenceNo": 1,
+            "FirstName": "Aman",
+            "LastName": "Singh",
+            "Email": "asraj2308@gmail.com",
+            "MobileNo": "8700193083",
+            "AdharCardNo": "1234-1234-1234",
+            "PanCardNo": "QRD12345NS",
+            "LoanAmount": 10000,
+            "InterestRate": 10,
+            "LoanType":"Personal",
+            "BankName":"PNB",
+            "IFSCCode":"PYTM0123456"
+        },
+        {
+            "ReferenceNo": 2,
+            "FirstName": "Chiku",
+            "LastName": "Singh",
+            "Email": "chiku-aman@gmail.com",
+            "MobileNo": "8700193083",
+            "AdharCardNo": "1234-1234-1234",
+            "PanCardNo": "QRD12345NS",
+            "LoanAmount": 20000,
+            "InterestRate": 12,
+            "LoanType":"Education",
+            "BankName":"PNB",
+            "IFSCCode":"PYTM0123456"
+        },
+        {
+            "ReferenceNo": 3,
+            "FirstName": "Chikku",
+            "LastName": "Singh",
+            "Email": "Chikku@gmail.com",
+            "MobileNo": "8700193083",
+            "AdharCardNo": "1234-1234-1234",
+            "PanCardNo": "QRD12345NS",
+            "LoanAmount": 30000,
+            "InterestRate": 16,
+            "LoanType":"Car Loan",
+            "BankName":"PNB",
+            "IFSCCode":"PYTM0123456"
+        }
+
+    ]
+}
