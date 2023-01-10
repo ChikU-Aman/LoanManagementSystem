@@ -1,25 +1,5 @@
 {
   "Customers": [
-    "cibil": [
-    {
-      "id": 1,
-      "customerid": "",
-      "customername": "",
-      "loantype": "",
-      "dateofbirth": "",
-      "correspondanceaddress": "",
-      "permanentaddress": "",
-      "pincode": "",
-      "mobileno": "",
-      "email": "",
-      "loanamount": "",
-      "panno": "",
-      "adhaar": "",
-      "bankname": "",
-      "ifsccode": ""
-            "name": "anuj",
-            "score": 500
-    },
     {
       "customerid": "asda",
       "customername": "safds",
@@ -53,6 +33,13 @@
       "bankname": "Bank of India",
       "ifsccode": "nwndjhw",
       "id": 3
+    }
+  ],
+  "cibil":[
+    {
+        "id":1,
+        "name":"Anuj",
+        "score":300
     }
   ]
 }
