@@ -1,0 +1,152 @@
+{
+  "LoanDetails": [
+    {
+      "id": 0,
+      "UserId": 1234,
+      "ReferenceNo": 1,
+      "FirstName": "Aman",
+      "LastName": "Singh",
+      "Email": "asraj2308@gmail.com",
+      "MobileNo": "8700193083",
+      "AdharCardNo": "1234-1234-1234",
+      "PanCardNo": "QRD12345NS",
+      "LoanAmount": 10000,
+      "InterestRate": 10,
+      "LoanType": "Personal Loan",
+      "BankName": "PNB",
+      "IFSCCode": "PYTM0123456",
+      "CorresspondeneceAddress": "",
+      "PermanenetAddress": "",
+      "MonthlyPayment": 100,
+      "LoanPeriodInMonth": 12
+    },
+    {
+      "id": 2,
+      "UserId": 1234,
+      "ReferenceNo": 2,
+      "FirstName": "Chiku",
+      "LastName": "Singh",
+      "Email": "chiku-aman@gmail.com",
+      "MobileNo": "8700193083",
+      "AdharCardNo": "1234-1234-1234",
+      "PanCardNo": "QRD12345NS",
+      "LoanAmount": 20000,
+      "InterestRate": 12,
+      "LoanType": "Education Loan",
+      "BankName": "PNB",
+      "IFSCCode": "PYTM0123456",
+      "MonthlyPayment": 100,
+      "LoanPeriodInMonth": 12
+    },
+    {
+      "id": 3,
+      "UserId": 1234,
+      "ReferenceNo": 3,
+      "FirstName": "Chikku",
+      "LastName": "Singh",
+      "Email": "Chikku@gmail.com",
+      "MobileNo": "8700193083",
+      "AdharCardNo": "1234-1234-1234",
+      "PanCardNo": "QRD12345NS",
+      "LoanAmount": 30000,
+      "InterestRate": 16,
+      "LoanType": "Car Loan",
+      "BankName": "PNB",
+      "IFSCCode": "PYTM0123456",
+      "MonthlyPayment": 100,
+      "LoanPeriodInMonth": 12
+    },
+    {
+      "id": 4,
+      "UserId": 1234,
+      "ReferenceNo": 4,
+      "FirstName": "king",
+      "LastName": "Singh",
+      "Email": "Chikku@gmail.com",
+      "MobileNo": "8700193083",
+      "AdharCardNo": "1234-1234-1234",
+      "PanCardNo": "QRD12345NS",
+      "LoanAmount": 30000,
+      "InterestRate": 16,
+      "LoanType": "Car Loan",
+      "BankName": "PNB",
+      "IFSCCode": "PYTM0123456",
+      "MonthlyPayment": 100,
+      "LoanPeriodInMonth": 12
+    }
+  ],
+  "TransactionsDetail": [
+    {
+      "id": 1,
+      "ReferenceNo": 1,
+      "TransactionsDetailId": "1234",
+      "Date": "22/12/2022",
+      "TransactionAmount": 10000,
+      "TransactionType": "Credit",
+      "TransactionDescription": "1st transaction DEscription"
+    },
+    {
+      "id": 2,
+      "ReferenceNo": 3,
+      "TransactionsDetailId": "3124",
+      "Date": "23/12/2022",
+      "TransactionAmount": 20000,
+      "TransactionType": "Credit",
+      "TransactionDescription": "1st transaction DEscription"
+    },
+    {
+      "ReferenceNo": 1,
+      "TransactionsDetailId": "",
+      "Date": "2023-01-10",
+      "TransactionAmount": "1000",
+      "TransactionType": "Credit",
+      "TransactionDescription": "1 installment",
+      "id": 3
+    },
+    {
+      "ReferenceNo": 1,
+      "TransactionsDetailId": "",
+      "Date": "",
+      "TransactionAmount": "10000",
+      "TransactionType": "Debit",
+      "TransactionDescription": "1 intalll",
+      "id": 4
+    },
+    {
+      "ReferenceNo": 1,
+      "TransactionsDetailId": "",
+      "Date": "",
+      "TransactionAmount": "1039824",
+      "TransactionType": "Credit",
+      "TransactionDescription": "123",
+      "id": 5
+    },
+    {
+      "ReferenceNo": 1,
+      "TransactionsDetailId": "",
+      "Date": "2023-01-14",
+      "TransactionAmount": "1000",
+      "TransactionType": "Credit",
+      "TransactionDescription": "2 installamane",
+      "id": 6
+    },
+    {
+      "ReferenceNo": 3,
+      "TransactionsDetailId": "",
+      "Date": "2023-01-11",
+      "TransactionAmount": "1000",
+      "TransactionType": "Credit",
+      "TransactionDescription": "1 install",
+      "id": 7
+    },
+    {
+      "ReferenceNo": 3,
+      "TransactionsDetailId": 1127,
+      "Date": "2023-01-26",
+      "TransactionAmount": "673094124",
+      "TransactionType": "Debit",
+      "TransactionDescription": "debt",
+      "id": 8
+    }
+  ]
+}
