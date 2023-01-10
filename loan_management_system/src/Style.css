@@ -1,0 +1,35 @@
+body {
+    background: #8f5c9f90;
+    color: rgb(29, 26, 26);
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 0%;
+    
+  }
+  
+  header {
+    margin: 20px;
+    text-align: center;
+    border-radius: 0px;
+    width: 100%;
+  }
+  
+  .success {
+    color: #0ff40f;
+  }
+  
+  .error {
+    color: #960303;
+  }
+  .hello{
+    text-align: center;
+    padding: 50px,50px,0px,0px;
+    color:black;
+    width: 100%;
+    }
+  .first {
+    width: 100%;
+  }
+  .button{
+    background-color: aquamarine;
+  }
