@@ -48,7 +48,8 @@ const LedgerGrid = () => {
 
     return (
         <Container>
-            <Table striped bordered hover>
+            <LedgerLoanFilter/>
+            <Table bordered hover>
                 <thead>
                     <tr>
                         <th>Reference No</th>
@@ -78,7 +79,6 @@ const LedgerGrid = () => {
                     </tr>))} */}
                 </tbody>
             </Table>
-            <LedgerLoanFilter/>
         </Container>
 
     )

@@ -21,19 +21,19 @@ const LedgerFilter = () => {
         dispatch(ledgerActions.changeTransactionDate(''))
     },[])
     return (
-        <div>
-            <Form.Group className="mb-3">
-                <Form.Label>Transaction Type</Form.Label>
-                <select onChange={(e) =>onChangeTransactionType(e)}>
+        <div className="d-flex col-md-12">
+            <Form.Group className="d-flex my-3 col-md-4 me-3 ms-3">
+                <Form.Label className="col-md-3">Date</Form.Label>
+                <Form.Control type="date" placeholder="" name="Date" 
+                onChange={(e) => onChangeTransactionDate(e)} />
+            </Form.Group>
+            <Form.Group className="my-3 col-md-4">
+                <Form.Label className="col-md-4">Transaction Type</Form.Label>
+                <select className="col-md-4" onChange={(e) =>onChangeTransactionType(e)}>
                     <option value="All">All Type</option>
                     <option value="Credit">Credit</option>
                     <option value="Debit">Debit</option>
                 </select>
-            </Form.Group>
-            <Form.Group className="mb-3">
-                <Form.Label>Date</Form.Label>
-                <Form.Control type="date" placeholder="" name="Date" 
-                onChange={(e) => onChangeTransactionDate(e)} />
             </Form.Group>
 
         </div>

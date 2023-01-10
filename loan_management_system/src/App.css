@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-neavy-blue{
+  background-color: #272343;
+  color:#ffffff; 
+  margin-bottom:4rem;
+  padding-inline:1% !important;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.navbar-neavy-blue .navbar-brand,.navbar-neavy-blue .nav-link{
+  color:#ffffff; 
+}
+.navbar-neavy-blue .navbar-brand:hover,.navbar-neavy-blue .nav-link:hover,.navbar-neavy-blue .navbar-brand:focus,.navbar-neavy-blue .nav-link:focus{
+  color:#bae8e8; 
+}
+.footer-copyright {
+  background-color: #272343;
+  color: #bae8e8;
+  padding: 15px 30px;
+  text-align: center;
+}
+.footer-copyright-link {
+  color: #bae8e8;
+  text-decoration: none;
+}
+.footer-copyright-text {
+  color: #bae8e8;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+  box-shadow: none;
+}
+tr:nth-child(even) {
+  background-color: #e3f6f5;
+  box-shadow: none;
+}
+.formfield * {
+  vertical-align: middle;
+}

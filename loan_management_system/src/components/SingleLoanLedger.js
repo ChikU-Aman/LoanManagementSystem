@@ -121,99 +121,95 @@ const SingleLoanLedger = (props) => {
         <Container>
           <Row>
             <Col>
-              <label>Reference No</label>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span>{loanDetail.ReferenceNo}</span>
+              <h4 className="text-center">Reference No: -  {loanDetail.ReferenceNo}</h4>
             </Col>
           </Row>
 
           &nbsp;
           <Row>
-            <label style={{ paddingBottom: "10px" }}>Personal Details</label>
+            <h4 className="center" style={{ paddingBottom: "10px" }}>Personal Details</h4 >
 
             <Col>
-              <label>First Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">First Name</label>
               <input type="text" value={loanDetail.FirstName}></input>
             </Col>
             <Col>
-              <label>Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Last Name</label>
               <input type="text" value={loanDetail.LastName}></input>
             </Col>
             <Col>
-              <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Email</label>
               <input type="text" value={loanDetail.Email}></input>
             </Col>
             <Col>
-              <label>Mobile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Mobile</label>
               <input type="text" value={loanDetail.MobileNo}></input>
             </Col>
           </Row>
           <Row style={{ "paddingTop": "20px" }}>
-            <Col>
-              <label>Corresspondenece Address</label>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input style={{ "height": "100px", "width": "300px" }} type="text" value={loanDetail.CorresspondeneceAddress}></input>
+            <Col className="formfield">
+              <label className="col-md-4">Corresspondenece Address</label>
+              <textarea className="col-md-8" style={{ "height": "100px"}} type="text" value={loanDetail.CorresspondeneceAddress}/>
             </Col>
-            <Col>
-              <label>Permanenet Address</label>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input style={{ "height": "100px", "width": "300px" }} type="text" value={loanDetail.PermanenetAddress}></input>
+            <Col className="formfield">
+              <label className="col-md-4">Permanenet Address</label>
+              <textarea className="col-md-8" style={{ "height": "100px"}} type="text" value={loanDetail.PermanenetAddress}/>
             </Col>
           </Row>
           <Row>
-            <label style={{ paddingBottom: "10px", paddingTop: "10px" }}>Document Details</label>
-            <Col>
-              <label>Adhar Card</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 style={{ paddingBottom: "10px", paddingTop: "10px" }}>Document Details</h4>
+            <Col md={4}>
+              <label className="col-md-4">Adhar Card</label>
               <input type="text" value={loanDetail.AdharCardNo} ></input>
             </Col>
-            <Col>
-              <label>Pan Card</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Col md={4}>
+              <label className="col-md-4">Pan Card</label>
               <input type="text" value={loanDetail.PanCardNo}></input>
             </Col>
           </Row>
           <Row>
-            <label style={{ paddingBottom: "10px", paddingTop: "10px" }}>Bank Details</label>
-            <Col>
-              <label>Bank Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 style={{ paddingBottom: "10px", paddingTop: "10px" }}>Bank Details</h4>
+            <Col md={4}>
+              <label className="col-md-4">Bank Name</label>
               <input type="text" value={loanDetail.BankName}></input>
             </Col>
-            <Col>
-              <label>IFSC Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Col md={4}>
+              <label className="col-md-4">IFSC Code</label>
               <input type="text" value={loanDetail.IFSCCode} ></input>
             </Col>
           </Row>
           <Row>
-            <label style={{ paddingBottom: "10px", paddingTop: "10px" }}>Loan Details</label>
+            <h4 style={{ paddingBottom: "10px", paddingTop: "10px" }}>Loan Details</h4>
             <Col>
-              <label>Loan Type</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Loan Type</label>
               <input type="text" value={loanDetail.LoanType}></input>
             </Col>
             <Col>
-              <label>Loan Amount</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Loan Amount</label>
               <input type="text" value={loanDetail.LoanAmount}></input>
             </Col>
             <Col>
-              <label>Interest Rate</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label className="col-md-4">Interest Rate</label>
               <input type="text" value={loanDetail.InterestRate}></input>
             </Col>
           </Row>
           <Row style={{ paddingTop: "20px" }}>
-            <Col>
-              <label>Monthly EMI</label>
+            <Col md={4}>
+              <label className="col-md-4">Monthly EMI</label>
               <input type="text" value={loanDetail.MonthlyPayment}></input>
             </Col>
-            <Col>
-              <label>Loan Period</label>
+            <Col md={4}>
+              <label className="col-md-4">Loan Period</label>
               <input type="text" value={loanDetail.LoanPeriodInMonth}></input>
             </Col>
           </Row>
         </Container>
         <Container style={{ "paddingTop": "50px" }}>
-          <input type="text" placeholder='Enter to search'></input>
-          <Button variant="primary" onClick={() => setAddModalShow(!addModalShow)}>Add Transaction</Button>
+          <Button className="float-end" variant="primary" onClick={() => setAddModalShow(!addModalShow)}>Add Transaction</Button>
         </Container>
         <LedgerFilter />
-        <Container style={{ "paddingTop": "10px" }}>
-          <Table striped bordered hover size="sm">
+        <Container style={{ "paddingTop": "10px", marginBottom:"6rem" }}>
+          <Table bordered hover size="sm">
             <thead>
               <tr>
                 <th>#</th>
