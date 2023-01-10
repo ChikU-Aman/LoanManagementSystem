@@ -1,0 +1,19 @@
+{
+    "cibil": [
+        {
+            "id": 1,
+            "name": "anuj",
+            "score": 500
+        },
+        {
+            "id": 2,
+            "name": "bhojraj",
+            "score": 800
+        },
+        {
+            "id": 3,
+            "name": "rahul",
+            "score": 600
+        }
+    ]
+}
