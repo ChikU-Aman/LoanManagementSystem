@@ -1,0 +1,55 @@
+{
+  "Customers": [
+    {
+      "id": 1,
+      "customerid": "",
+      "customername": "",
+      "loantype": "",
+      "dateofbirth": "",
+      "correspondanceaddress": "",
+      "permanentaddress": "",
+      "pincode": "",
+      "mobileno": "",
+      "email": "",
+      "loanamount": "",
+      "panno": "",
+      "adhaar": "",
+      "bankname": "",
+      "ifsccode": ""
+    },
+    {
+      "customerid": "asda",
+      "customername": "safds",
+      "loantype": "dsaf",
+      "dateofbirth": "sdfsdf",
+      "correspondanceaddress": "dfdsfas",
+      "permanentaddress": "asdfsaf",
+      "pincode": "fdsfsd",
+      "mobileno": "dsfdsfsdf",
+      "email": "dsfdsfds",
+      "loanamount": "sadsada",
+      "panno": "sfdsdfas",
+      "adhaar": "sadsada",
+      "bankname": "sadsadas",
+      "ifsccode": "sadsadas",
+      "id": 2
+    },
+    {
+      "customerid": "01",
+      "customername": "Roshini S",
+      "loantype": "personal",
+      "dateofbirth": "17/08/1999",
+      "correspondanceaddress": "13-1-280 indra nagar banglore road Hindupur",
+      "permanentaddress": "13-1-280 indra nagar",
+      "pincode": "515201",
+      "mobileno": "+919490520812",
+      "email": "roshinis909@gmail.com",
+      "loanamount": "200000",
+      "panno": "whduhewiydg2euw",
+      "adhaar": "6546235472974",
+      "bankname": "Bank of India",
+      "ifsccode": "nwndjhw",
+      "id": 3
+    }
+  ]
+}
