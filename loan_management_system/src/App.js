@@ -11,6 +11,7 @@ import UpdateProfile from './cibil/UpdateProfile';
 import Base from './cibil/Home';
 import { useEffect, useState } from 'react';
 import ContactForm from './components/ContactForm';
+import CibilCheck from './cibil/CibilCheck';
 
 const App = () => {
   const [first, setFirst] = useState('');
@@ -41,10 +42,10 @@ const App = () => {
 
   return (
     <div>
-    {/* // <div className="App">
-    //   <CibilCheck />
-    // </div> */}
-      {/* <Base>
+      {/* <div className="App">
+        <CibilCheck />
+      </div> */}
+      <Base>
         <Container
           className="d-flex align-items-center justify-content-center"
           style={{ minHeight: "100vh" }}>
@@ -57,12 +58,14 @@ const App = () => {
                   <Route path="/login" element={<Login />} />
                   <Route path="/forgot-password" element={<ForgotPassword />} />
                   <Route path="/update-profile" element={<UpdateProfile />} />
+                  <Route path="/cibil" element={<CibilCheck />} />
+                
                 </Routes>
               </AuthProvider>
             </Router>
           </div>
         </Container>
-      </Base> */}
+      </Base>
     </div>
   );
 };
